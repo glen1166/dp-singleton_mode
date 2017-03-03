@@ -10,8 +10,6 @@ namespace SingletonMode
     {
         private static readonly Emperor _instance = new Emperor();
 
-        public static object _lock = new object();
-
         private Emperor() { }
 
         public static Emperor Instance
